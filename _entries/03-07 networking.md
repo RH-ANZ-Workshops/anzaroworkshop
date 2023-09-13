@@ -38,7 +38,7 @@ spec:
     app: ostoy-microservice
 ```
 
-In this case we will enter: `ostoy-microservice-svc.ostoy.svc.cluster.local`
+In this case we will enter: `ostoy-microservice-svc.ostoy<student#>.svc.cluster.local`
 
 We will see an IP address returned.  In our example it is ```172.30.165.246```.  This is the intra-cluster IP address; only accessible from within the cluster.
 
@@ -63,7 +63,7 @@ ostoy-frontend-679cb85695-5cn7x       1/1       Running   0          1h
 ostoy-microservice-86b4c6f559-p594d   1/1       Running   0          1h
 ```
 
-Let's change our microservice definition yaml to reflect that we want 3 pods instead of the one we see.  Download the [ostoy-microservice-deployment.yaml](/yaml/ostoy-microservice-deployment.yaml) and save it on your local machine.
+Let's change our microservice definition yaml to reflect that we want 3 pods instead of the one we see.  Download the [ostoy-microservice-deployment.yaml](https://github.com/RH-ANZ-Workshops/anzworkshop/blob/main/yaml/ostoy-microservice-deployment.yaml) and save it on your local machine.
 
 Open the file using your favorite editor. Ex: `vi ostoy-microservice-deployment.yaml`.
 
